@@ -10,7 +10,7 @@
 <link rel="apple-touch-icon" href="icon-192.png">
 <meta name="apple-mobile-web-app-title" content="Remisiones">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
 <style>
 /*
 VOICE: herramienta de campo, clara y rápida, para usar parado en una entrega.
@@ -237,7 +237,7 @@ body[data-mode=ent] .dev,body[data-mode=dev] .ent,body[data-mode=hist] .form,bod
   </div>
 </div>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js" defer></script>
 <script>
 {
 const $=id=>document.getElementById(id);
